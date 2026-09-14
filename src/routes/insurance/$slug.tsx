@@ -84,9 +84,9 @@ function ProductPage() {
         </div>
         <aside className="h-fit rounded-2xl bg-pine p-6 text-paper sm:p-8">
           <p className="text-xs font-medium uppercase tracking-[0.16em] text-sage">Get a quote</p>
-          <h2 className="mt-3 font-display text-3xl font-medium">Ask Cammy or Lori to look at it.</h2>
+          <h2 className="mt-3 font-display text-3xl font-medium">Send it over. We will look at it.</h2>
           <p className="mt-3 text-sm text-paper/75">
-            Send a request or call the office. You get the desk on Lafayette — not a call center.
+            Request a quote or call the office. You get Lafayette Street — not a call center.
           </p>
           <div className="mt-6 flex flex-col gap-3">
             <Button asChild variant="invert">

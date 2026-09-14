@@ -78,7 +78,7 @@ export const team = [
     name: "Lori Richardson",
     role: "Agent",
     years: "Joined 2004",
-    bio: "Lori moved home from Dallas in 2004 to join the family desk. Two sisters, one office, and a shared stubbornness about doing right by the people who walk in.",
+    bio: "Lori moved home from Dallas in 2004 to work alongside her sister. Two sisters, one office, and a shared stubbornness about doing right by the people who walk in.",
     initial: "LR",
   },
 ] as const;
@@ -171,7 +171,7 @@ export const products: Product[] = [
     eyebrow: "Cars, trucks & farm vehicles",
     summary: "Liability, collision, comprehensive, and the extras that matter on Farm-to-Market roads.",
     intro:
-      "Get an auto quote from the desk on Lafayette Street and you may save hundreds a year. It takes a few minutes to find out. We write personal autos, farm trucks, and the vehicles that live between town and the chicken houses.",
+      "Get an auto quote from the office on Lafayette Street and you may save hundreds a year. It takes a few minutes to find out. We write personal autos, farm trucks, and the vehicles that live between town and the chicken houses.",
     bullets: [
       "Bodily injury and property damage liability",
       "Collision and comprehensive",
@@ -215,7 +215,7 @@ export const products: Product[] = [
     featured: true,
     image: "/images/farm-poultry.jpg",
     imageAlt: "East Texas poultry houses at dawn with morning mist",
-    eyebrow: "The specialty that built this desk",
+    eyebrow: "The specialty that built this agency",
     summary: "Broiler houses, barns, equipment, farm liability, and the trucks that keep a Northeast Texas farm running.",
     intro:
       "Pittsburg sits in poultry country. We have been writing farm and poultry-house coverage since Benny opened a Germania agency in 1980. If you have houses, a shop, equipment, or livestock, this is not a policy you want written by someone who has never stood in a broiler house.",

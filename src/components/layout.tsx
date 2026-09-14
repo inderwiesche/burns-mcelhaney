@@ -135,7 +135,7 @@ export function SiteFooter() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-2.5">
             <img src="/logo.svg" alt="" className="size-9 outline-none" />
-            <span className="font-display text-xl font-medium">Burns McElhaney Agency</span>
+            <span className="font-display text-xl font-medium">Burns McElhaney</span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-paper/70">{agency.blurb}</p>
           <p className="mt-3 text-sm text-paper/55">{agency.sinceLine}</p>
@@ -197,7 +197,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-paper/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-5 text-xs text-paper/45 sm:flex-row sm:justify-between sm:px-6">
-          <p>© {new Date().getFullYear()} Burns McElhaney Agency. Independent insurance, Pittsburg, Texas.</p>
+          <p>© {new Date().getFullYear()} Independent insurance, Pittsburg, Texas.</p>
           <p>Quotes are requests, not binders. Coverage is subject to underwriting.</p>
         </div>
       </div>

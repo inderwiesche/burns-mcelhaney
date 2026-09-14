@@ -30,9 +30,9 @@ function Quote() {
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-12 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">Quote</p>
-          <h1 className="mt-3 font-display text-4xl font-medium sm:text-5xl">Tell us what you need. Cammy or Lori will call you back.</h1>
+          <h1 className="mt-3 font-display text-4xl font-medium sm:text-5xl">Tell us what you need. We will call you back.</h1>
           <p className="mt-4 text-ink-soft">
-            This is a request, not a binder. Someone at the Lafayette Street desk will look at it during office hours
+            This is a request, not a binder. Someone at the Lafayette Street office will look at it during office hours
             and reach you the way you asked.
           </p>
           <div className="mt-8 rounded-2xl border border-line bg-paper p-5">

@@ -92,7 +92,7 @@ export function agencyGraph() {
         foundingDate: "1980",
         slogan: agency.tagline,
         description:
-          "Independent insurance agency in Pittsburg, Texas. Auto, home, poultry house, farm, and business coverage. Germania, Progressive, and other carriers. Family desk at 208 Lafayette Street since 1980.",
+          "Independent insurance agency in Pittsburg, Texas. Auto, home, poultry house, farm, and business coverage. Germania, Progressive, and other carriers. Family office at 208 Lafayette Street since 1980.",
         address: {
           "@type": "PostalAddress",
           streetAddress: agency.addressLine,

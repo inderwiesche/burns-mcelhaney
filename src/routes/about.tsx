@@ -9,9 +9,9 @@ export const Route = createFileRoute("/about")({
   component: About,
   head: () =>
     pageHead({
-      title: "Cammy McElhaney | Insurance Agent in Pittsburg, TX | Burns McElhaney",
+      title: "About the Agency | Insurance in Pittsburg, TX | Burns McElhaney",
       description:
-        "Meet Cammy McElhaney and Lori Richardson — independent insurance agents at 208 Lafayette Street in Pittsburg, Texas. Family desk since 1980. Germania, Progressive, and more.",
+        "Meet the independent insurance agents at 208 Lafayette Street in Pittsburg, Texas. Family office since 1980. Germania, Progressive, and more.",
       path: "/about",
       image: "/images/family-tractor.jpg",
       imageAlt: "The Burns McElhaney family on a tractor in front of a blue farmhouse",
@@ -21,18 +21,18 @@ export const Route = createFileRoute("/about")({
 const timeline = [
   {
     year: "1980",
-    title: "Benny Burns opens the desk",
+    title: "Benny Burns opens the office",
     copy: "A Germania agency on Lafayette Street. Benny’s insurance life had started decades earlier, at 18. Pittsburg got a hometown office that knew farm and family business as well as auto.",
   },
   {
     year: "1998",
     title: "Cammy comes home to the books",
-    copy: "Benny’s daughter Cammy McElhaney joined the agency and gave it the name it still carries: Burns McElhaney. The work did not change. The sign did.",
+    copy: "Benny’s daughter Cammy joined in 1998 and gave the agency the name it still carries. The work did not change. The sign did.",
   },
   {
     year: "2004",
     title: "Lori leaves Dallas",
-    copy: "Lori Richardson moved back from Dallas to sit at the same desk as her sister. Two generations, one office, and a shared idea that you answer the phone like the person on the other end is family.",
+    copy: "Lori Richardson moved back from Dallas to work alongside her sister. Two generations, one office, and a shared idea that you answer the phone like the person on the other end is family.",
   },
   {
     year: "Today",
@@ -61,7 +61,7 @@ function About() {
       />
       <PageHero
         eyebrow="The agency"
-        title="A family desk on Lafayette Street."
+        title="A family office on Lafayette Street."
         lede="Since 1998 our insurance agency has served Pittsburg and the surrounding Texas communities by protecting the people we work with just like we protect our own family members."
         image="/images/family-tractor.jpg"
         imageAlt="The Burns McElhaney family on a tractor in front of a blue farmhouse"
@@ -75,7 +75,7 @@ function About() {
           small, unique, or specific the need is.
         </p>
         <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-          With the years of experience on this desk, there is not much we have not seen. You never know when that is
+          With the years of experience in this office, there is not much we have not seen. You never know when that is
           going to come in handy.
         </p>
       </section>
@@ -97,8 +97,8 @@ function About() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">The desk</p>
-        <h2 className="mt-3 font-display text-4xl font-medium">Who you will talk to.</h2>
+        <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">The team</p>
+        <h2 className="mt-3 font-display text-4xl font-medium">Who is here.</h2>
         <div className="mt-10 grid gap-4 md:grid-cols-2">
           {team.map((person) => (
             <article key={person.name} className="rounded-2xl bg-paper p-6 shadow-[var(--shadow-border)]">

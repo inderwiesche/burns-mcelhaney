@@ -65,8 +65,8 @@ function Home() {
             Coverage that knows East Texas.
           </h1>
           <p className="mt-5 max-w-xl text-base text-paper/80 sm:text-lg">
-            You will talk to Cammy McElhaney or Lori Richardson — auto, home, farm, and business from 208 Lafayette.
-            Germania, Progressive, and whoever else the risk actually needs.
+            Come in or call. You get a neighbor on Lafayette Street, not a call center - auto, home, farm, and
+            business. Germania, Progressive, or whoever else the risk actually needs.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" variant="invert">
@@ -165,9 +165,8 @@ function Home() {
               Since 1998 we have protected Pittsburg like our own.
             </h2>
             <p className="mt-5 text-ink-soft">
-              You will talk to Cammy McElhaney or Lori Richardson. Benny opened the Germania desk in 1980; Cammy came
-              home in 1998 and Lori left Dallas in 2004 to sit beside her sister. If you are not thrilled with your
-              current insurance, that is a reason to call.
+              This office started as a Germania agency in 1980. The family still answers the phone on Lafayette Street.
+              If you are not thrilled with your current insurance, that is a reason to call.
             </p>
             <div className="mt-8">
               <Button asChild variant="outline">
@@ -275,7 +274,7 @@ function Home() {
       <section className="border-t border-line bg-paper">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
           <div>
-            <h2 className="font-display text-4xl font-medium">Call the desk, or send a request.</h2>
+            <h2 className="font-display text-4xl font-medium">Call the office, or send a request.</h2>
             <ul className="mt-8 space-y-4 text-ink-soft">
               <li className="flex gap-3">
                 <MapPin className="mt-0.5 size-5 text-forest" />
