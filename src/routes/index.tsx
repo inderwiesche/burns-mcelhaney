@@ -59,14 +59,15 @@ function Home() {
         <div className="relative mx-auto flex min-h-[70svh] max-w-6xl flex-col justify-center px-4 py-28 sm:px-6 md:min-h-[88svh] md:justify-end md:pb-16 md:pt-28">
           <OpenBadge />
           <p className="mt-5 text-xs font-medium uppercase tracking-[0.2em] text-sage">
-            Independent insurance · Pittsburg, Texas
+            Independent insurance · Pittsburg, surrounding towns & East Texas
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-5xl font-medium tracking-tight sm:text-6xl md:text-7xl">
             Coverage that knows East Texas.
           </h1>
-          <p className="mt-5 max-w-xl text-base text-paper/80 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base text-paper/80 sm:text-lg">
             Come in or call. You get a neighbor on Lafayette Street, not a call center - auto, home, farm, and
-            business. Germania, Progressive, or whoever else the risk actually needs.
+            business for Pittsburg, Camp County, Mount Pleasant, and the rest of East Texas. We write Germania,
+            Progressive, and other carriers, with additional markets considered upon request.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" variant="invert">
@@ -97,7 +98,11 @@ function Home() {
             </div>
             <div>
               <dt className="text-xs uppercase tracking-[0.16em] text-sage">Markets</dt>
-              <dd className="mt-1 font-display text-2xl">Germania & Progressive</dd>
+              <dd className="mt-1 font-display text-2xl">
+                <a href="#carriers" className="hover:underline">
+                  Germania, Progressive & more
+                </a>
+              </dd>
             </div>
           </dl>
         </div>
@@ -185,14 +190,14 @@ function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <section id="carriers" className="mx-auto max-w-6xl scroll-mt-24 px-4 py-20 sm:px-6">
         <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">Carriers</p>
         <h2 className="mt-3 font-display text-4xl font-medium sm:text-5xl">
           We’re proud to represent great insurance carriers like:
         </h2>
         <p className="mt-4 max-w-2xl text-ink-soft">
-          We work for you, not one company. These are markets we already write — and we will shop others when the risk
-          needs it.
+          We work for you, not one company. These are markets we already write. Additional carriers are considered upon
+          request.
         </p>
         <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
           {carriers.map((c) => (
@@ -207,6 +212,9 @@ function Home() {
             </a>
           ))}
         </div>
+        <p className="mt-6 text-sm text-ink-soft">
+          Do not see the company you have now? Ask. We will shop others when the risk needs it.
+        </p>
       </section>
 
       <section className="bg-pine-deep text-paper">
