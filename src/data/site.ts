@@ -85,19 +85,34 @@ export const team = [
 
 export const carriers = [
   {
-    name: "Germania",
-    since: "Our founding carrier",
-    copy: "A Texas mutual since 1896 — farm, home, auto, and the kind of coverage that was written for this state, not adapted to it.",
+    name: "Germania Farm Mutual",
+    image: "/images/carriers/germania.png",
+    href: "https://www.germaniainsurance.com/",
+  },
+  {
+    name: "Foremost",
+    image: "/images/carriers/foremost.jpg",
+    href: "https://www.foremost.com/",
+  },
+  {
+    name: "Hagerty",
+    image: "/images/carriers/hagerty.jpg",
+    href: "https://www.hagerty.com/",
+  },
+  {
+    name: "Insurors Indemnity",
+    image: "/images/carriers/insurors.png",
+    href: "https://www.insurorsindemnity.com/",
+  },
+  {
+    name: "National Flood Insurance Program",
+    image: "/images/carriers/nfip.jpg",
+    href: "https://www.floodsmart.gov/",
   },
   {
     name: "Progressive",
-    since: "Auto & specialty",
-    copy: "Competitive auto, motorcycle, boat, RV, and more. A strong option when the right rate and the right coverage need to meet in the middle.",
-  },
-  {
-    name: "And others",
-    since: "Independent, on purpose",
-    copy: "We are not captive to one company. When a risk is unusual — a poultry house, a Main Street shop, a lake house — we shop it.",
+    image: "/images/carriers/progressive.jpg",
+    href: "https://www.progressive.com/",
   },
 ] as const;
 
@@ -443,24 +458,46 @@ export const products: Product[] = [
       "Landlord and rental dwelling insurance in Pittsburg and Mount Pleasant. Building, loss of rents, and landlord liability — not a homeowners policy.",
   },
   {
+    slug: "builders-risk",
+    title: "Builders risk",
+    category: "Commercial",
+    image: "/images/cover-builders.jpg",
+    imageAlt: "Pickup tailgate with blueprints and a hard hat at an East Texas house under construction",
+    eyebrow: "Houses and jobs under construction",
+    summary:
+      "A builders risk policy covers the structure while it is being built — materials, theft, fire, and weather — until it is ready for a regular property policy.",
+    intro:
+      "A homeowners or commercial property policy is not written for a jobsite. If you are building a house, adding on, or putting up a shop, builders risk is the coverage that follows the work until the keys are handed over.",
+    bullets: [
+      "The building while it is going up",
+      "Materials on site and in transit where available",
+      "Fire, theft, wind, and other named causes",
+      "Owner-builders and contractor jobs",
+    ],
+    seoTitle: "Builders Risk Insurance in Pittsburg, TX | Burns McElhaney",
+    seoDescription:
+      "Builders risk insurance in Pittsburg, Texas for houses and shops under construction. Materials, theft, fire, and weather until the job is finished.",
+  },
+  {
     slug: "bonds",
     title: "Bonds",
     category: "Commercial",
     image: "/images/cover-bonds.jpg",
-    imageAlt: "East Texas house framing with contractor blueprints and a hard hat on a tailgate",
-    eyebrow: "License, bid & surety",
-    summary: "Not insurance, exactly — a guarantee that you will do what you said. We help contractors and businesses place the bonds they need to work.",
+    imageAlt: "Desk with a Texas vehicle title, executor papers, and a notary stamp",
+    eyebrow: "Lost titles, executor, probate & information",
+    summary:
+      "Not a construction bond. These are the surety bonds people need at the courthouse and the tax office — lost titles, executor, administrator, and information bonds.",
     intro:
-      "If a city, a general contractor, or a license board is asking for a bond, call us with the requirement. We will tell you what kind it is and whether we can place it.",
+      "If you lost a vehicle title, if a court named you executor or administrator of an estate, or if an agency is asking for an information bond, call us with the requirement. We will tell you what kind it is and whether we can place it.",
     bullets: [
-      "License and permit bonds",
-      "Bid and performance bonds where available",
-      "Court and miscellaneous surety",
-      "Plain-language help on what the obligee actually wants",
+      "Lost title bonds",
+      "Executor and administrator bonds",
+      "Information and miscellaneous court bonds",
+      "Bring the letter or the form — we will read it with you",
     ],
-    seoTitle: "Surety Bonds in Pittsburg, TX | Burns McElhaney",
+    seoTitle: "Lost Title, Executor & Surety Bonds | Pittsburg, TX",
     seoDescription:
-      "License, bid, and surety bonds for contractors and businesses in Pittsburg, Texas. Call Burns McElhaney with the requirement.",
+      "Lost title, executor, administrator, and information bonds in Pittsburg, Texas. Not contractor bonds — courthouse and title surety from Burns McElhaney.",
   },
 ];
 

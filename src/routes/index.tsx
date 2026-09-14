@@ -21,8 +21,8 @@ export const Route = createFileRoute("/")({
       description:
         "Independent insurance agent in Pittsburg, Texas. Auto, home, poultry house, farm, and business. Germania and Progressive. Cammy McElhaney at 208 Lafayette. Call (903) 856-3422.",
       path: "/",
-      image: "/images/hero-pines.jpg",
-      imageAlt: "East Texas pine country with a farm road leading to a white farmhouse",
+      image: "/images/flag.jpg",
+      imageAlt: "American flag on a lawn under a summer sky",
     }),
 });
 
@@ -46,17 +46,17 @@ function Home() {
     <main>
       <JsonLd data={agencyGraph()} />
 
-      <section className="relative isolate min-h-[88svh] overflow-hidden bg-pine-deep text-paper">
+      <section className="relative isolate min-h-[70svh] overflow-hidden bg-pine-deep text-paper md:min-h-[88svh]">
         <img
-          src="/images/hero-pines.jpg"
-          alt="East Texas pine country with a farm road leading to a white farmhouse"
-          width={1728}
-          height={1152}
+          src="/images/flag.jpg"
+          alt="American flag on a lawn under a summer sky"
+          width={1920}
+          height={1308}
           fetchPriority="high"
-          className="absolute inset-0 size-full object-cover outline-none"
+          className="absolute inset-0 size-full object-cover object-top outline-none md:object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-pine-deep via-pine-deep/55 to-pine-deep/25" />
-        <div className="relative mx-auto flex min-h-[88svh] max-w-6xl flex-col justify-end px-4 pb-14 pt-28 sm:px-6 sm:pb-16">
+        <div className="absolute inset-0 bg-gradient-to-t from-pine-deep/80 via-black/30 to-black/25" />
+        <div className="relative mx-auto flex min-h-[70svh] max-w-6xl flex-col justify-center px-4 py-28 sm:px-6 md:min-h-[88svh] md:justify-end md:pb-16 md:pt-28">
           <OpenBadge />
           <p className="mt-5 text-xs font-medium uppercase tracking-[0.2em] text-sage">
             Independent insurance · Pittsburg, Texas
@@ -179,8 +179,8 @@ function Home() {
             </div>
           </div>
           <img
-            src="/images/office.jpg"
-            alt="Warm independent insurance office interior"
+            src="/images/family-tractor.jpg"
+            alt="The Burns McElhaney family on a tractor in front of a blue farmhouse"
             className="aspect-4/3 w-full rounded-2xl object-cover"
           />
         </div>
@@ -188,14 +188,24 @@ function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">Carriers</p>
-        <h2 className="mt-3 font-display text-4xl font-medium sm:text-5xl">We work for you, not one company.</h2>
-        <div className="mt-10 grid gap-4 md:grid-cols-3">
+        <h2 className="mt-3 font-display text-4xl font-medium sm:text-5xl">
+          We’re proud to represent great insurance carriers like:
+        </h2>
+        <p className="mt-4 max-w-2xl text-ink-soft">
+          We work for you, not one company. These are markets we already write — and we will shop others when the risk
+          needs it.
+        </p>
+        <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
           {carriers.map((c) => (
-            <article key={c.name} className="rounded-2xl border border-line bg-paper p-6">
-              <p className="text-xs font-medium uppercase tracking-[0.16em] text-muted">{c.since}</p>
-              <h3 className="mt-3 font-display text-2xl font-medium">{c.name}</h3>
-              <p className="mt-3 text-sm text-ink-soft">{c.copy}</p>
-            </article>
+            <a
+              key={c.name}
+              href={c.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex min-h-32 items-center justify-center rounded-2xl bg-paper px-6 py-8 shadow-[var(--shadow-border)]"
+            >
+              <img src={c.image} alt={c.name} className="max-h-16 w-auto max-w-full object-contain outline-none" />
+            </a>
           ))}
         </div>
       </section>

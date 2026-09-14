@@ -37,7 +37,11 @@ function ProductPage() {
       <JsonLd data={productGraph(product)} />
       <PageHero
         eyebrow={product.eyebrow}
-        title={`${product.title} insurance in Pittsburg, Texas.`}
+        title={
+          product.slug === "bonds"
+            ? `${product.title} in Pittsburg, Texas.`
+            : `${product.title} insurance in Pittsburg, Texas.`
+        }
         lede={product.summary}
         image={product.image}
         imageAlt={product.imageAlt}

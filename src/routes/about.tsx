@@ -13,8 +13,8 @@ export const Route = createFileRoute("/about")({
       description:
         "Meet Cammy McElhaney and Lori Richardson — independent insurance agents at 208 Lafayette Street in Pittsburg, Texas. Family desk since 1980. Germania, Progressive, and more.",
       path: "/about",
-      image: "/images/downtown.jpg",
-      imageAlt: "Pittsburg, Texas Main Street brick storefronts and water tower",
+      image: "/images/family-tractor.jpg",
+      imageAlt: "The Burns McElhaney family on a tractor in front of a blue farmhouse",
     }),
 });
 
@@ -63,8 +63,8 @@ function About() {
         eyebrow="The agency"
         title="A family desk on Lafayette Street."
         lede="Since 1998 our insurance agency has served Pittsburg and the surrounding Texas communities by protecting the people we work with just like we protect our own family members."
-        image="/images/downtown.jpg"
-        imageAlt="Pittsburg, Texas Main Street brick storefronts and water tower"
+        image="/images/family-tractor.jpg"
+        imageAlt="The Burns McElhaney family on a tractor in front of a blue farmhouse"
       />
 
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
